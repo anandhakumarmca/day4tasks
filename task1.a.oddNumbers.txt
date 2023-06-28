@@ -18,4 +18,5 @@ const printOddNumbers = function(arr) {
          console.log(num);
        }
      });
-   }(numbers);
+   };
+   printOddNumbers(numbers);
